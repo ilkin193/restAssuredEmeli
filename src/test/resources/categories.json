@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Баги",
+    "matchedStatuses": [
+      "failed"
+    ]
+  },
+  {
+    "name": "Известные проблемы",
+    "matchedStatuses": [
+      "failed"
+    ],
+    "messageRegex": ".*Known issue.*"
+  },
+  {
+    "name": "Функциональные ошибки",
+    "matchedStatuses": [
+      "failed"
+    ],
+    "traceRegex": ".*NullPointerException.*"
+  }
+]
